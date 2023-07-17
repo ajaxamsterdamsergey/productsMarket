@@ -11,7 +11,6 @@ const Home = lazy(() => import('./components/Home/Home'));
 
 const App = () => {
   const layoutProps = { gridTemplateRows: "60px 1fr" };
-
   return (
     <Box>
       <Routes>
